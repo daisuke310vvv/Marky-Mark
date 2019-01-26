@@ -17,7 +17,7 @@ open class ListMarkDownItem: MarkDownItem, HasListItems, HasIndex {
         super.init(lines: lines, content: content)
     }
 
-    var indexCharacter: String? {
+    public var indexCharacter: String? {
         guard let index = index else { return nil }
         return "\(index)"
     }
