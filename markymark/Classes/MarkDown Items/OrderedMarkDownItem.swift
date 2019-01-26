@@ -7,7 +7,7 @@ import Foundation
 
 open class OrderedListMarkDownItem: ListMarkDownItem {
 
-    override var indexCharacter: String? {
+    override public var indexCharacter: String? {
         return "\(index ?? 0)."
     }
 }
