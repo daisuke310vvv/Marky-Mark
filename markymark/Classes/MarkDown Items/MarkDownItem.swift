@@ -7,8 +7,8 @@ import Foundation
 
 open class MarkDownItem {
 
-    var lines: [String]
-    var markDownItems: [MarkDownItem]?
+    public var lines: [String]
+    public var markDownItems: [MarkDownItem]?
 
     open var content: String
 
